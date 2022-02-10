@@ -17,15 +17,17 @@ int main(){
     }
     if(up>low){
         for(int i=0; i<str.size(); i++){
-            char ch = str[i];
-            cout<<toupper(ch);
+            char ch;
+            ch = toupper(str[i]);
+            cout<<ch;
             
         }
     }
     if(low>up || low==up){
         for(int i=0; i<str.size(); i++){
-            char ch = str[i];
-            cout<<tolower(ch);
+            char ch;
+            ch = tolower(str[i]);
+            cout<<ch;
             
         }
 
